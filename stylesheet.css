@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+.homepage {
+    font-family: sans-serif;
+    background-color: #ece6db;
+}
+
+.container {
+    width: 100%;
+    height: 100vh; /* Set the container to take full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.text-container {
+    text-align: center; /* Center the text within its container */
+}
+
+.text-container h1 {
+    font-size: 90px;
+    color: #d18749;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 30px;
+    color: #d18749;
+}
+
+
+.image-container img {
+
+    height: 300px;
+   border: 0;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.cs{
+    margin-left: 15px;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container {
+        padding-top: 0;
+    }
+    .image-container {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    .text-container h1{
+        font-size: 5rem;
+    }
+
+    .text-container p{
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .image-container img {
+        height: 300px;
+     
+    }
+}
+
+.row{
+    margin-left: 50px;
+}
+
+.fgv{
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+ 
+}
+
+.fgv h2{
+    font-weight: bold;
+     
+}
